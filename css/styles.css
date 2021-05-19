@@ -1,0 +1,25 @@
+html, body {
+    background:url(../img/bg.jpg) center center no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+logo, img {
+    padding-top: 15px;
+}
+
+.intro, p {
+    color: white;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 1.9em;
+}
+
+.counter, .countdown {
+    text-align: center;
+    color: white;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 3em;
+    margin: -15px 0 0;
+    
+}
