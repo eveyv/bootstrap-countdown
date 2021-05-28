@@ -3,8 +3,21 @@ html, body {
     height: 100%;
     background-size: cover;
 }
+@media(max-width: 768px) {
+    #logo img {
+        width: 50%;
+    }
+    #counter .countdown {
+        font-size: 1.4em !important
+    }
+    #icons .fa {
+        margin:10px 0 0 !important
+        font-size: 2em;
+    }
+}
 
-logo, img {
+
+#logo, img {
     padding-top: 15px;
 }
 
@@ -21,5 +34,38 @@ logo, img {
     font-family: 'Caveat Brush', cursive;
     font-size: 3em;
     margin: -15px 0 0;
-    
+}
+
+#icons {
+    text-align: center;
+}
+
+#icons .fab, .fas {
+    color: white;
+    margin: 5px 33px;
+    position: relative;
+    bottom: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+#icons .jedi:hover, .dungeon:hover, .bahai:hover {
+    color:#6cadde;
+    bottom: 5px;
+}
+
+#signup {
+    text-align: center;
+}
+
+#signup .form-inline {
+    display: block;
+}
+
+#signup .btn-signup {
+    background-color: rgba(161,186,226,0.5);
+    color: white;
+}
+
+#signup .btn:hover {
+    background-color: rgba(37,165,82,1);
 }
